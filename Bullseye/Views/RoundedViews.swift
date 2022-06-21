@@ -51,7 +51,8 @@ struct RoundedImageViewFilled: View {
         
         Image(systemName: systemName)
             .font(.title)
-            .foregroundColor(Color("ButtonFilledTextColor"))
+            .foregroundColor(Color("ButtonFilledTextColor"
+                                  ))
             .frame(width: 56, height: 56)
             .background(
                 Circle()
