@@ -55,7 +55,7 @@ struct RoundedImageViewFilled: View {
             .frame(width: 56, height: 56)
             .background(
                 Circle()
-                    .fill(Color("ButtonFilledBackgroundColor")).padding()
+                    .fill(Color("ButtonFilledBackgroundColor"))
             )
         
     }
